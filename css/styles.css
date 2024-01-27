@@ -9,6 +9,11 @@ body{
     display: flex;
 }
 
+.container-header{
+    display: flex;
+
+}
+
 .container-header::-webkit-textfield-decoration-container{
 width: 1158px;
 margin: 0 auto;
@@ -26,7 +31,7 @@ align-items: center;
 }
 
 .menu-header-link{
-    padding: 24px 0 24px;
+    padding: 24px 0;
 }
 
 .address-contacts-link{
