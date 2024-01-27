@@ -4,12 +4,47 @@ body{
     background-color: #FFFFFF;
 }
 
+.header{
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+}
+
+.container-header::-webkit-textfield-decoration-container{
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px 0 15px;
+}
+
+.nav-header{
+display: flex;
+align-items: center;
+}
+
+.menu-header{
+    display: flex;
+    gap: 40px;
+}
+
+.menu-header-link{
+    padding: 24px 0 24px;
+}
+
+.address-contacts-link{
+    display: flex;
+    gap: 40px
+    ;
+}
+
 a{
     text-decoration: none;
 }
 
 ul{
     list-style: none;
+}
+
+img{
+    display: block;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -19,6 +54,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-right: 76px;
 }
 
 .logo-span{
