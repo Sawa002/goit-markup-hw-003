@@ -9,12 +9,12 @@ body{
     display: flex;
 }
 
-.container-header{
+.header-container{
     display: flex;
 
 }
 
-.header-container{
+.container{
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
@@ -29,12 +29,11 @@ align-items: center;
 .menu-header{
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .menu-header-link{
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .address-contacts-link{
@@ -101,6 +100,7 @@ color: #2e2f42;
 }
 
 .business-title{
+max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -109,6 +109,11 @@ color: #2e2f42;
 }
 
 .business-btn{
+    display: block;
+    min-width: 196px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -121,6 +126,13 @@ color: #2e2f42;
 
 .business-btn:hover, .business-btn:focus{
     background-color: #404BBF;
+}
+
+
+
+.plan{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .plan-title{
