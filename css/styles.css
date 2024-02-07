@@ -14,7 +14,12 @@ body{
 
 }
 
-
+.header-container{
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 .nav-header{
 display: flex;
@@ -24,6 +29,8 @@ align-items: center;
 .menu-header{
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-header-link{
@@ -89,6 +96,8 @@ color: #2e2f42;
 
 .business{
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .business-title{
