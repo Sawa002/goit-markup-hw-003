@@ -155,7 +155,7 @@ max-width: 496px;
 }
 
 .plan-list-item{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .plan-title{
@@ -195,7 +195,7 @@ padding-bottom: 120px;
 
 .team-list-item{
     background-color:  #FFFFFF;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100%-72px) /4);
     border-radius: 0px 0px 4px 4px;
 }
 
