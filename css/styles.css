@@ -136,12 +136,35 @@ max-width: 496px;
     padding-bottom: 120px;
 }
 
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    word-spacing: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.plan-list{
+    display: flex;
+    gap: 24px;
+}
+
+.plan-list-item{
+    width: calc((100% - 72px) / 4);
+}
+
 .plan-title{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .plan-text{
@@ -151,6 +174,8 @@ letter-spacing: 0.02em;
 
 .team-section{
 background-color:  #F4F4FD;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .team-title{
@@ -160,18 +185,32 @@ background-color:  #F4F4FD;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
-.team-item{
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+
+.team-list-item{
     background-color:  #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
+.team-name{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .team-item-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-item-text{
@@ -179,6 +218,7 @@ background-color:  #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 .portfolio-item{
