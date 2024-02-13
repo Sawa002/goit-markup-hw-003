@@ -34,6 +34,12 @@ align-items: center;
 }
 
 .menu-header-link{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -140,6 +146,7 @@ max-width: 496px;
     color: #ffffff;
     cursor: pointer;
     margin: 0 auto;
+    padding-top: 428px;
 }
 
 .business-btn:hover, .business-btn:focus{
@@ -244,8 +251,13 @@ padding-bottom: 120px;
 }
 
 .portfolio-name{
-    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .portfolio-list{
