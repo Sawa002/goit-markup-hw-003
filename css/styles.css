@@ -39,6 +39,11 @@ align-items: center;
     padding-bottom: 24px;
 }
 
+.contacts{
+    display: flex;
+    margin-left: auto;
+}
+
 .address-contacts-link{
     display: flex;
     gap: 40px;
