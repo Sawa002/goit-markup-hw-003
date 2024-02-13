@@ -33,21 +33,28 @@ align-items: center;
 }
 
 .menu-header-link{
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
 .address-contacts-link{
     display: flex;
-    gap: 40px
-    ;
+    gap: 40px;
+    margin-left: auto;
 }
 
 a{
     text-decoration: none;
 }
 
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
 ul{
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -109,6 +116,7 @@ max-width: 496px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin: 0 auto;
 }
 
 .business-btn{
@@ -125,6 +133,7 @@ max-width: 496px;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .business-btn:hover, .business-btn:focus{
@@ -230,6 +239,7 @@ padding-bottom: 120px;
 
 .portfolio-name{
     margin-bottom: 72px;
+    text-align: center;
 }
 
 .portfolio-list{
@@ -291,5 +301,5 @@ padding-bottom: 120px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
-    min-width: 264px;
+    max-width: 264px;
 }
