@@ -58,7 +58,7 @@ align-items: center;
 .address-contacts-link{
     display: flex;
     gap: 40px;
-    margin-left: 940px;
+    padding-left: 500px;
 }
 
 a{
